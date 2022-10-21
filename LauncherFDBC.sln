@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL_authentification", "SQL_authentification", "{A0529451-03A6-4797-82BF-7C7ADEB21998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BO_Launcher", "SQL_authentification\BO_Launcher\BO_Launcher.csproj", "{B38F2B72-7684-4567-A0A7-161934539CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Launcher", "SQL_authentification\DAL_Launcher\DAL_Launcher.csproj", "{948E8502-C0A5-46B5-A79A-34189593B8F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL_Launcher", "SQL_authentification\BL_Launcher\BL_Launcher.csproj", "{5AAB946D-0B25-4CCE-9800-10B6EE6BF39A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherFDBC", "LauncherFDBC\LauncherFDBC.csproj", "{A84E237B-1C40-4B32-B597-2008CC06CD33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherUpdater", "LauncherUpdater\LauncherUpdater.csproj", "{07791074-CC13-4BAB-9D27-7ECB641201A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdaterManager", "UpdaterManager\UpdaterManager.csproj", "{1FDCE1FD-46FF-4F88-B75E-D50CEB8EB23A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B38F2B72-7684-4567-A0A7-161934539CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38F2B72-7684-4567-A0A7-161934539CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38F2B72-7684-4567-A0A7-161934539CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38F2B72-7684-4567-A0A7-161934539CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948E8502-C0A5-46B5-A79A-34189593B8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948E8502-C0A5-46B5-A79A-34189593B8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948E8502-C0A5-46B5-A79A-34189593B8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948E8502-C0A5-46B5-A79A-34189593B8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAB946D-0B25-4CCE-9800-10B6EE6BF39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAB946D-0B25-4CCE-9800-10B6EE6BF39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAB946D-0B25-4CCE-9800-10B6EE6BF39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAB946D-0B25-4CCE-9800-10B6EE6BF39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84E237B-1C40-4B32-B597-2008CC06CD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84E237B-1C40-4B32-B597-2008CC06CD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84E237B-1C40-4B32-B597-2008CC06CD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84E237B-1C40-4B32-B597-2008CC06CD33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07791074-CC13-4BAB-9D27-7ECB641201A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07791074-CC13-4BAB-9D27-7ECB641201A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07791074-CC13-4BAB-9D27-7ECB641201A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07791074-CC13-4BAB-9D27-7ECB641201A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FDCE1FD-46FF-4F88-B75E-D50CEB8EB23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDCE1FD-46FF-4F88-B75E-D50CEB8EB23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDCE1FD-46FF-4F88-B75E-D50CEB8EB23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDCE1FD-46FF-4F88-B75E-D50CEB8EB23A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B38F2B72-7684-4567-A0A7-161934539CC5} = {A0529451-03A6-4797-82BF-7C7ADEB21998}
+		{948E8502-C0A5-46B5-A79A-34189593B8F7} = {A0529451-03A6-4797-82BF-7C7ADEB21998}
+		{5AAB946D-0B25-4CCE-9800-10B6EE6BF39A} = {A0529451-03A6-4797-82BF-7C7ADEB21998}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79124578-0187-4A35-AA75-CD564E83EBEC}
+	EndGlobalSection
+EndGlobal
